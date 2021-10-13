@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1Consulta{
+    color: #ae7f58;
+    font-size: 37px;
+    margin-left: 0;
+}
+table{border-collapse: collapse;
+    margin: 15px 2px 2px 25%;
+}
+th,tr,td{
+    border:1px solid #000;
+    width:150px;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+th{
+    color: #000;
+    background-color: #ae7f58;
+}
+tr{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-weight: 1000;
+}
+.mensaje{
+    color: white;
+}
+.enlaces{
+    background-color: #ae7e57eb;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.enlaces a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 8.9%;
+    padding-left: 8.9%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 17px;
+}
+.enlaces a:hover{
+    background-color: #714b30;
+
+}
+h3{
+    font-family: 'Glory', sans-serif;
+    margin: 0;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #b48864;
+    color: #b48864;
+}
+body{
+    background-image: url(../images/imagenbody.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.iconomenu{
+    background-color: rgb(27, 7, 7);
+    height: 1cm;
+    width: 1cm;
+    float: left;
+    text-align: center;
+}
+body .iconomenu img{
+    margin-top: 0;
+    text-align: center;
+}
+header{
+    padding: 0;
+    background-color: #ae7e57eb;
+    text-align: center;
+}
+.imagenH{
+    width: 138px;
+}
+.clear{
+    clear: both;
+}
+header img{
+    float: left;
+}
+header h1{
+    float: left;
+}
+h1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 113px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 125px;
+}
+main{
+    height: 485px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 371px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 7px 13px 37px white;
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+}
+.mainConsulta{
+    height: 393px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 642px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 7px 13px 37px white;
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+}
+.mainInicio{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 740px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 7px 13px 37px white;
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+}
+.instagram{
+    float: right;
+    margin-top: 53px;
+    margin-right: 1cm;
+}
+
+.facebook{
+    float: right;
+    margin-top: 53px;
+    margin-right: 10px;
+}
+.instagram img{
+    width: 40px;
+}
+.facebook img{
+    width: 40px;
+}
+.twitter img{
+    width: 52px;
+    margin-right: 5px;
+}
+.twitter{
+    float: right;
+    margin-top: 45px;
+}
+main h2{
+    font-family: 'Glory', sans-serif;
+    margin: 0;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #b48864;
+    color: #b48864;
+}
+main p{
+    text-align: center;
+    margin: 0;
+    height: 48px;
+    border-bottom: 2px solid #b48864;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+main p a:hover{
+    text-decoration: underline;
+}
+.pInicio{
+    font-family: 'Glory', sans-serif;
+    font-size: 93px;
+    color: white;
+    border-bottom: none;
+
+}
+button{
+    background-color: #b48864;
+    border: 1px solid #b48864;
+    color: white;
+    width: 8cm;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+}
+button:hover{
+    background-color: #b48864;
+    border: 1px solid rgb(255, 255, 255);
+    width: 8cm;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.datos{
+    padding: 11px 10px;
+    width: 8cm;
+    margin-bottom: 26px;
+    border-bottom: 1px solid;
+    border-radius: 18px;
+    border: none;
+}
+form{
+    color: white;
+    font-family: 'Glory', sans-serif;
+}
+.registro button{
+    background-color: #b48864;
+    border: 1px solid #b48864;
+    color: white;
+    width: 47%;
+    padding: 10px 10px;
+    border-radius: 18px;
+    margin-top: 45px;
+    margin-left: -160px;
+}
+.registro button:hover{
+    background-color: #b48864;
+    border: 1px solid rgb(255, 255, 255);
+    width: 47%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.pRegistro{
+    border-bottom: none;
+    border-top: 2px solid #b48864;
+    color: white;
+    padding-top: 28px;
+    padding-bottom: 15px;
+    font-family: 'Glory', sans-serif;
+    font-size: 23px;
+}
+footer{
+    padding: 40px;
+    background-color: #ae7e57eb;
+    height: 100px;
+}
+footer h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.enlaces button{
+    display: inline;
+    border: 1px solid rgb(255, 255, 255);
+    width: 4cm;
+    padding: 10px 10px;
+    cursor: pointer;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+.registro{
+    width: auto;
+}
+
+.registro2{
+    width: auto;
+    margin: -67px 7px 3px 159px;
+    padding: -1px;
+}
+.registro2 button{
+    background-color: #b48864;
+    border: 1px solid #b48864;
+    color: white;
+    width: 4cm;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+}
+.registro2 button:hover{
+    background-color: #b48864;
+    border: 1px solid rgb(255, 255, 255);
+    width: 4cm;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.mainClinicasGestion{
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 1600px;
+    margin:auto;
+    text-align: center;
+    box-shadow: 7px 13px 37px white;
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+}
+.mainUsuariosGestion{
+    height: 545px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 400px;
+    margin:auto;
+    text-align: center;
+    box-shadow: 7px 13px 37px white;
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+}
+.enlacesClinicasGestion a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 275px;
+    padding-left: 274px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 17px;
+}
+.enlacesConsultar a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 9.2%;
+    padding-left: 9.2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 17px;
+}
+.enlacesConsultar{
+    background-color: #ae7e57eb;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.enlacesConsultar a:hover{
+    background-color: #714b30;
+}
+.enlacesUsuariosGestion a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 9.7%;
+    padding-left: 9.7%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 17px;
+}
+.enlacesUsuariosGestion{
+    background-color: #ae7e57eb;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.enlacesClinicasGestion{
+    background-color: #ae7e57eb;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.enlacesClinicasGestion a:hover{
+    background-color: #714b30;
+}
+.enlacesUsuariosGestion a:hover{
+    background-color: #714b30;
+}
+.buttonGestionU{
+    background-color: #b48864;
+    border: 1px solid #b48864;
+    color: white;
+    width: 100px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+}
+.buttonGestionU:hover{
+    background-color: #b48864;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.inputGestionU{
+    padding: 11px 10px;
+    width: 8cm;
+    margin-bottom: 26px;
+    border-bottom: 1px solid;
+    border-radius: 18px;
+    border: none;
+}

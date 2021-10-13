@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="../static/images/pawprints.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap');
+    </style>
+    <title>Gestion Usuarios</title>
+</head>
+<body>
+    <header>
+        <div class="floatleft">
+            <img class="imagenH" src="static/images/logo.png" width="300px" alt="">
+        </div>
+        <div class="floatRight">
+            <h1>PET'S CARE</h1>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/?hl=es" target="_blank" alt=""><img src="static/images/instagram.png"></a> 
+        </div>
+        <div class="facebook">
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="static/images/facebook.png" alt=""></a>
+        </div>
+        <div class="twitter">
+            <a href="https://twitter.com/?lang=es" target="_blank"> <img src="static/images/twitter.png" alt=""></a>
+        </div>
+        <div class="clear"></div>
+        <div class="enlacesConsultar"> 
+            <a class="enlaceborder" href="/inicio" >Inicio</a>  
+            <a class="enlaceborder" href="/gestion_usuario" >Gestion Usuario</a>
+            <a class="enlaceborder" href="/gestion_clinicas" >Gestion Clinicas</a>
+            <a class="enlaceborder" href="/" >Salir</a>
+             
+        </div>  
+             <div id="contenedor">
+                 <div id="centralForm">
+                     <div id="formulario">                 
+                     </div>
+                 </div>
+             </div>        
+    <div class="clear"></div>
+
+    </header>
+    <main class="mainConsulta">
+        <h1 class="h1Consulta">Datos del usuario</h1>
+        <table>
+            <tr>
+
+                <th>Username</th>
+                <td>{{ user['username'] }}</td>
+
+            </tr>
+                
+            <tr>
+                <th>Nombre</th>
+                <td>{{ user['nombre'] }}</td>
+            </tr>
+
+            <tr>
+                <th>Apellido</th>
+                <td>{{ user['apellido'] }}</td>
+            </tr>
+
+            <tr>
+                <th>Teléfono</th>
+                <td>{{ user['telefono'] }}</td>
+            </tr>
+
+            <tr>
+                <th>Correo</th>
+                <td>{{ user['correo'] }}</td>
+            </tr>
+
+            <tr>    
+                <th>Tipo</th>    
+                <td>{{ user['tipo'] }}</td>
+            </tr>
+            
+    </main>
+
+</body>
+</html>

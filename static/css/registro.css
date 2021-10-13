@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mensaje{
+    color: white;
+    border: none;
+}
+body{
+    background-image: url(../images/imagenbody.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.iconomenu{
+    background-color: rgb(27, 7, 7);
+    height: 1cm;
+    width: 1cm;
+    float: left;
+    text-align: center;
+}
+body .iconomenu img{
+    margin-top: 0;
+    text-align: center;
+}
+header{
+    padding: 0;
+    background-color: #ae7e57eb;
+    text-align: center;
+}
+.imagenH{
+    width: 138px;
+}
+.clear{
+    clear: both;
+}
+header img{
+    float: left;
+}
+header h1{
+    float: left;
+}
+h1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3cm;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 125px;
+}
+main{
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 362px;
+    margin:auto;
+    box-shadow: 7px 13px 37px rgb(255, 255, 255);
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+}
+.mainClinica{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 362px;
+    margin:auto;
+    box-shadow: 7px 13px 37px rgb(255, 255, 255);
+    padding: 20px 30px;
+    font-family: 'Glory', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 35px;
+
+}
+.registro {
+    padding: 11px 10px;
+    width: 8cm;
+    margin-bottom: 26px;
+    border: none;
+    border-radius: 18px;
+}
+
+.instagram{
+    float: right;
+    margin-top: 53px;
+    margin-right: 1cm;
+}
+
+.facebook{
+    float: right;
+    margin-top: 53px;
+    margin-right: 10px;
+}
+.instagram img{
+    width: 40px;
+}
+.facebook img{
+    width: 40px;
+}
+.twitter img{
+    width: 52px;
+    margin-right: 5px;
+}
+.twitter{
+    float: right;
+    margin-top: 45px;
+}
+main h2{
+    font-family: 'Glory', sans-serif;
+    margin: 0;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #b48864;
+    color: #b48864;
+    text-align: center;
+}
+main p{
+    text-align: center;
+    margin: 0;
+    height: 48px;
+    border-bottom: 2px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p a{
+    text-decoration: none;
+    color: black;
+}
+main p a:hover{
+    text-decoration: underline;
+}
+button{
+    background-color: #b48864;
+    color: white;
+    width: 8cm;
+    padding: 10px 10px;
+    margin-top: 4px;
+    border-radius: 18px;
+    border: 1px solid #b48864;
+}
+button:hover{
+    background-color: #b48864;
+    border: 1px solid rgb(255, 255, 255);
+    width: 8cm;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.datos{
+    padding: 11px 10px;
+    width: 8cm;
+    margin-bottom: 26px;
+    border-bottom: 1px solid;
+    border: 1px solid #b79772e3;
+}
+footer{
+    padding: 40px;
+    background-color: #ae7e57eb;
+    height: 100px;
+}
+footer h2{
+    color: white;
+    text-align: center;
+}

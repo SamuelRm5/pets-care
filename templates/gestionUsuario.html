@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="../static/images/pawprints.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap');
+    </style>
+    <title>Gestion Usuarios</title>
+</head>
+<body>
+    <header>
+        <div class="floatleft">
+            <img class="imagenH" src="static/images/logo.png" width="300px" alt="">
+        </div>
+        <div class="floatRight">
+            <h1>PET'S CARE</h1>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/?hl=es" target="_blank" alt=""><img src="static/images/instagram.png"></a> 
+        </div>
+        <div class="facebook">
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="static/images/facebook.png" alt=""></a>
+        </div>
+        <div class="twitter">
+            <a href="https://twitter.com/?lang=es" target="_blank"> <img src="static/images/twitter.png" alt=""></a>
+        </div>
+        <div class="clear"></div>
+        <div class="enlacesUsuariosGestion">   
+            <a class="enlaceborder" href="/inicio" >Inicio</a>
+            <a class="enlaceborder" href="/gestion_clinicas" >Gestion Clinicas</a>
+            <a class="enlaceborder" href="/consultar" >Consultar</a>
+            <a class="enlaceborder" href="/" >Salir</a>
+             
+        </div>  
+             <div id="contenedor">
+                 <div id="centralForm">
+                     <div id="formulario">                 
+                     </div>
+                 </div>
+             </div>        
+    <div class="clear"></div>
+
+    </header>
+
+    <main class="mainUsuariosGestion">
+        <h3>Gestion de Usuario</h3>
+        <form action="/obtener_usuario" method='GET'>
+            <form >
+                <div class="campoBuscar">
+                    <div>
+                        {% if usuario!=undefined %}
+                        <input class="inputGestionU" type="text" id="correo" name="correo" value="{{ usuario.correo }}"   placeholder="Correo">
+                        {% else %}
+                        <input class="inputGestionU" type="text" id="correo" name="correo" placeholder="Correo">
+                        {% endif %}
+                        <div>
+                            <button class="buttonGestionU" name="buscar" type="submit">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </form>
+                    <div class="camposCentrales">
+                        <form action="/actualizar_usuario", method="POST">
+                            <div>
+                                {% if usuario!=undefined %}
+                                <input class="inputGestionU" readonly type="text" value="{{ usuario.correo }}" id="correo" name="correo" placeholder="Correo">
+                                {% endif %}
+                            </div>
+                            <div>
+                                {% if usuario!=undefined %}
+                                <input class="inputGestionU" type="text"  id="username" name="username"  value="{{ usuario.username }}"  placeholder="Username" >
+                                {% else %}
+                                <input class="inputGestionU" type="text" name="username" id="username" placeholder="Nombre de usuario" required>
+                                {% endif %}
+                            </div>
+                            <div>
+                                {% if usuario!=undefined %}
+                                <input class="inputGestionU" type="text"  id="nombre" name="nombre" value="{{ usuario.nombre }}"  placeholder="Nombre(s)" required>
+                                {% else %}
+                                <input class="inputGestionU" type="text" name="nombre" id="nombre" placeholder="Nombre(s)" required>
+                                {% endif %}
+                            </div>
+                        
+                            <div>
+                                {% if usuario!=undefined %}
+                                <input class="inputGestionU" type="text" name="apellido" id="apellido" value="{{ usuario.apellido }}" placeholder="Apellidos" required>
+                                {% else %}
+                                <input class="inputGestionU" type="text" name="apellido" id="apellido" placeholder="Apellidos" required>
+                                {% endif %}
+                            </div>
+                            <div>
+                                {% if usuario!=undefined %}
+                                <input class="inputGestionU" type="tel" name="telefono" id="telefono" value="{{ usuario.telefono }}" placeholder="Teléfono" required>
+                                {% else %}
+                                <input class="inputGestionU" type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
+                                {% endif %}
+                            </div>                            
+                                <button class="buttonGestionU" name="actualizar" type="submit">Actualizar</button>
+                        </form>
+                    </div>
+                
+            </form>
+                
+                
+                
+
+                
+            
+        
+    </main>
+
+    <footer>
+        <h2>FOOTER</h2>
+    </footer>
+</body>
+</html>
